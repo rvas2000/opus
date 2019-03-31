@@ -1,0 +1,53 @@
+* {
+    font-size: 12px;
+    font-family: verdana, arial, sans-serif;
+}
+
+body    {
+    background: rgba(139, 190, 255, 0.31);
+}
+
+h1  {
+    font-size: 26px;
+}
+
+div.menu {
+    float: left;
+    padding: 0;
+    width: 100%;
+    background: #80cdff;
+}
+
+div.menu ul {
+    display: block;
+    float: left;
+    /*border: 1px dashed blue;*/
+    padding: 5px 0 0 5px;
+    margin: 0;
+}
+
+div.menu ul li {
+    float: left;
+    /*border: 1px dashed magenta;*/
+    list-style: none;
+    min-width: 150px;
+    margin: 0 5px 5px 0;
+    height: 18px;
+    padding-top: 2px;
+}
+
+
+div.menu div.auth-form {
+    float: right;
+    /*border: 1px dashed red;*/
+    padding: 5px 0 0 5px;
+    margin: 0;
+}
+
+div.menu div.auth-form form {
+    margin: 0 5px 5px 0;
+}
+
+div.menu div.auth-form form input[type=password] {
+    width: 75px;
+}
